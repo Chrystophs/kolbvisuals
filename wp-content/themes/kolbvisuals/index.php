@@ -46,7 +46,7 @@
 <div data-spy="affix" data-offset-top="210" data-offset-bottom="200">
 <?php endif; ?> 
     <div class="containernav">
-          <nav class="navigation navbar navbar-default" role="navigation">
+          <nav class="navbar navbar-default" role="navigation">
               <div class="navbar-header">
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>

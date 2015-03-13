@@ -4108,7 +4108,7 @@ input[type="button"].btn-block {
     /* line 96, bootstrap/_navs.scss */
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
       color: #555555;
-      background-color: rgba(25, 25, 25, 0.6);
+      background-color: rgba(0, 0, 0, 0.5);
       border: 1px solid #ddd;
       border-bottom-color: transparent;
       cursor: default; }
@@ -4183,7 +4183,7 @@ input[type="button"].btn-block {
     .nav-tabs.nav-justified > .active > a:hover,
     .nav-tabs-justified > .active > a:focus,
     .nav-tabs.nav-justified > .active > a:focus {
-      border-bottom-color: rgba(25, 25, 25, 0.6); } }
+      border-bottom-color: rgba(0, 0, 0, 0.5); } }
 
 /* line 224, bootstrap/_navs.scss */
 .tab-content > .tab-pane {
@@ -4212,7 +4212,7 @@ input[type="button"].btn-block {
   position: relative;
   min-height: 50px;
   margin-bottom: 0px;
-  border-bottom: 1px solid #999; }
+  border-bottom: 2px solid #999; }
   /* line 20, bootstrap/_mixins.scss */
   .navbar:before, .navbar:after {
     content: " ";
@@ -4348,14 +4348,14 @@ input[type="button"].btn-block {
   margin-bottom: 8px;
   background: transparent;
   border-radius: 4px;
-  color: #fff; }
+  color: #000; }
   /* line 189, bootstrap/_navbar.scss */
   .navbar-toggle:focus {
     outline: none;
-    color: #fff; }
+    color: #000; }
   /* line 193, bootstrap/_navbar.scss */
   .navbar-toggle:hover {
-    color: #fff; }
+    color: #000; }
   /* line 198, bootstrap/_navbar.scss */
   .navbar-toggle .icon-bar {
     display: block;
@@ -4492,73 +4492,73 @@ input[type="button"].btn-block {
 /* line 383, bootstrap/_navbar.scss */
 .navbar-default {
   background: transparent;
-  border-color: rgba(100, 100, 100, 0.2); }
+  border-color: rgba(55, 55, 55, 0.8); }
   /* line 387, bootstrap/_navbar.scss */
   .navbar-default .navbar-brand {
-    color: #fff; }
+    color: #000; }
     /* line 389, bootstrap/_navbar.scss */
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-      color: #e6e6e6;
+      color: black;
       background-color: transparent; }
   /* line 396, bootstrap/_navbar.scss */
   .navbar-default .navbar-text {
-    color: #fff; }
+    color: #000; }
   /* line 401, bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > li > a {
-    color: #fff;
+    color: #000;
     font-weight: normal;
     font-size: 16px; }
     /* line 406, bootstrap/_navbar.scss */
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-      color: #fff;
-      background-color: rgba(25, 25, 25, 0.6); }
+      color: #000;
+      background-color: rgba(0, 0, 0, 0.5); }
   /* line 413, bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #fff;
-    background-color: rgba(3, 3, 3, 0.6); }
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.5); }
   /* line 421, bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
     color: #ccc;
     background-color: transparent; }
   /* line 430, bootstrap/_navbar.scss */
   .navbar-default .navbar-toggle {
-    border-color: rgba(100, 100, 100, 0.2); }
+    border-color: rgba(55, 55, 55, 0.8); }
     /* line 432, bootstrap/_navbar.scss */
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-      background-color: rgba(25, 25, 25, 0.6); }
+      background-color: rgba(0, 0, 0, 0.5); }
     /* line 436, bootstrap/_navbar.scss */
     .navbar-default .navbar-toggle .icon-bar {
       background-color: #888; }
   /* line 441, bootstrap/_navbar.scss */
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
-    border-color: rgba(100, 100, 100, 0.2); }
+    border-color: rgba(55, 55, 55, 0.8); }
   /* line 450, bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    background-color: rgba(3, 3, 3, 0.6);
-    color: #fff; }
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #000; }
   @media (max-width: 991px) {
     /* line 461, bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-      color: #fff; }
+      color: #000; }
       /* line 463, bootstrap/_navbar.scss */
       .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #fff;
-        background-color: rgba(25, 25, 25, 0.6); }
+        color: #000;
+        background-color: rgba(0, 0, 0, 0.5); }
     /* line 470, bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-      color: #fff;
-      background-color: rgba(3, 3, 3, 0.6); }
+      color: #000;
+      background-color: rgba(0, 0, 0, 0.5); }
     /* line 478, bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
       color: #ccc;
       background-color: transparent; } }
   /* line 494, bootstrap/_navbar.scss */
   .navbar-default .navbar-link {
-    color: #fff; }
+    color: #000; }
     /* line 496, bootstrap/_navbar.scss */
     .navbar-default .navbar-link:hover {
-      color: #fff; }
+      color: #000; }
 
 /* line 505, bootstrap/_navbar.scss */
 .navbar-inverse {
@@ -4573,7 +4573,7 @@ input[type="button"].btn-block {
       background-color: transparent; }
   /* line 518, bootstrap/_navbar.scss */
   .navbar-inverse .navbar-text {
-    color: #fff; }
+    color: #000; }
   /* line 523, bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav > li > a {
     color: #999999; }
@@ -5845,53 +5845,56 @@ button.close {
 /* Header Styles */
 /* line 243, bootstrap/_styles.scss */
 .logo {
-  display: block; }
+  position: relative;
+  display: block;
+  z-index: 2; }
 
-/* line 248, bootstrap/_styles.scss */
+/* line 249, bootstrap/_styles.scss */
 .logo-2 {
-  left: 10%;
-  height: 20%;
-  width: 30%;
+  margin-top: 25%;
+  left: 15%;
+  height: 15%;
+  width: 25%;
   position: relative;
   display: block;
   z-index: 1; }
 
-/* line 257, bootstrap/_styles.scss */
+/* line 259, bootstrap/_styles.scss */
 .top-bar {
   background: #534741;
   margin-bottom: 10px;
   min-height: 20px;
   padding: 3px 0px 5px 0px; }
 
-/* line 264, bootstrap/_styles.scss */
+/* line 266, bootstrap/_styles.scss */
 .hours-short {
   font-size: 11px;
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); }
-  /* line 268, bootstrap/_styles.scss */
+  /* line 270, bootstrap/_styles.scss */
   .hours-short a {
     color: #e2e2e2; }
-    /* line 270, bootstrap/_styles.scss */
+    /* line 272, bootstrap/_styles.scss */
     .hours-short a:hover {
       color: #fff; }
 
-/* line 276, bootstrap/_styles.scss */
+/* line 278, bootstrap/_styles.scss */
 .social-links {
   text-align: right;
   margin-top: 10px; }
-  /* line 280, bootstrap/_styles.scss */
+  /* line 282, bootstrap/_styles.scss */
   .social-links a svg {
     opacity: 0.8; }
 
-/* line 286, bootstrap/_styles.scss */
+/* line 288, bootstrap/_styles.scss */
 .social-links-bottom {
   text-align: left; }
-  /* line 289, bootstrap/_styles.scss */
+  /* line 291, bootstrap/_styles.scss */
   .social-links-bottom a svg {
     background: #fff;
     border-radius: 30px;
     padding: 1px; }
-  /* line 295, bootstrap/_styles.scss */
+  /* line 297, bootstrap/_styles.scss */
   .social-links-bottom a:hover svg {
     opacity: 1.0;
     -moz-transition: opacity .5s;
@@ -5902,12 +5905,12 @@ button.close {
     /* Opera */
     transition: opacity .5s; }
 
-/* line 307, bootstrap/_styles.scss */
+/* line 309, bootstrap/_styles.scss */
 .h-address {
   margin-top: 10px;
   text-align: right;
   margin-bottom: 20px; }
-  /* line 311, bootstrap/_styles.scss */
+  /* line 313, bootstrap/_styles.scss */
   .h-address span {
     font-size: 14px;
     line-height: 26px;
@@ -5915,205 +5918,205 @@ button.close {
     font-family: "jaf-facitweb",sans-serif;
     text-shadow: 2px 2px #222; }
 
-/* line 320, bootstrap/_styles.scss */
+/* line 322, bootstrap/_styles.scss */
 .h-phone {
   font-size: 18px;
   margin-top: 20px;
   text-align: right;
   color: #fff;
   text-shadow: 2px 2px #222; }
-  /* line 326, bootstrap/_styles.scss */
+  /* line 328, bootstrap/_styles.scss */
   .h-phone span {
     font-size: 16px;
     line-height: 18px;
     color: #fff;
     font-family: "jaf-facitweb",sans-serif;
     text-shadow: 2px 2px #222; }
-    /* line 332, bootstrap/_styles.scss */
+    /* line 334, bootstrap/_styles.scss */
     .h-phone span strong {
       color: #fff;
       font-size: 18px;
       text-shadow: 2px 2px #222; }
 
 /*Footer Styles */
-/* line 343, bootstrap/_styles.scss */
+/* line 345, bootstrap/_styles.scss */
 .foot-logo {
   height: 200px;
   width: 150px; }
 
-/* line 348, bootstrap/_styles.scss */
+/* line 350, bootstrap/_styles.scss */
 .footer-bar {
   background: #fff;
   padding: 50px 0px 20px 0px; }
 
-/* line 352, bootstrap/_styles.scss */
+/* line 354, bootstrap/_styles.scss */
 .footer-copyright {
   background: #362f2d;
   padding: 10px 0px 10px 0px; }
 
-/* line 356, bootstrap/_styles.scss */
+/* line 358, bootstrap/_styles.scss */
 .footer-bg {
   background: #362f2d !important; }
 
-/* line 359, bootstrap/_styles.scss */
+/* line 361, bootstrap/_styles.scss */
 .f-bar-bg {
   background: #fff !important; }
 
-/* line 363, bootstrap/_styles.scss */
+/* line 365, bootstrap/_styles.scss */
 .f-map img {
   margin-bottom: 5px; }
 
-/* line 367, bootstrap/_styles.scss */
+/* line 369, bootstrap/_styles.scss */
 .copyright {
   text-align: center;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
   color: #e2e2e2; }
-  /* line 372, bootstrap/_styles.scss */
+  /* line 374, bootstrap/_styles.scss */
   .copyright a {
     color: #ffffff; }
 
-/* line 377, bootstrap/_styles.scss */
+/* line 379, bootstrap/_styles.scss */
 .contact-box {
   color: #000;
   min-height: 160px; }
-  /* line 380, bootstrap/_styles.scss */
+  /* line 382, bootstrap/_styles.scss */
   .contact-box h4 {
     margin-top: 0px; }
 
-/* line 385, bootstrap/_styles.scss */
+/* line 387, bootstrap/_styles.scss */
 .footer-links {
   min-height: 160px; }
-  /* line 388, bootstrap/_styles.scss */
+  /* line 390, bootstrap/_styles.scss */
   .footer-links li ul {
     list-style-type: none; }
 
-/* line 394, bootstrap/_styles.scss */
+/* line 396, bootstrap/_styles.scss */
 .footer-menu {
   list-style-type: none;
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px; }
-  /* line 398, bootstrap/_styles.scss */
+  /* line 400, bootstrap/_styles.scss */
   .footer-menu a {
     color: #000; }
-    /* line 400, bootstrap/_styles.scss */
+    /* line 402, bootstrap/_styles.scss */
     .footer-menu a:hover {
       color: #444; }
 
 /* Callouts */
-/* line 408, bootstrap/_styles.scss */
+/* line 410, bootstrap/_styles.scss */
 .callout-title {
   text-align: center;
   font-size: 24px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 1px 1px 0px white; }
-  /* line 413, bootstrap/_styles.scss */
+  /* line 415, bootstrap/_styles.scss */
   .callout-title a {
     color: #333333; }
-    /* line 415, bootstrap/_styles.scss */
+    /* line 417, bootstrap/_styles.scss */
     .callout-title a:hover {
       text-decoration: none; }
 
-/* line 421, bootstrap/_styles.scss */
+/* line 423, bootstrap/_styles.scss */
 .callout-body {
   text-align: center;
   font-size: 15px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 /* Services Pages */
-/* line 429, bootstrap/_styles.scss */
+/* line 431, bootstrap/_styles.scss */
 .services-tabs {
   margin-top: 30px; }
 
 /* Bootstrap Dropdown Fix */
-/* line 434, bootstrap/_styles.scss */
+/* line 436, bootstrap/_styles.scss */
 ul.nav li.dropdown:hover > ul.dropdown-menu {
   display: block; }
 
-/* line 437, bootstrap/_styles.scss */
+/* line 439, bootstrap/_styles.scss */
 .navbar .dropdown-menu {
   margin-top: 0px; }
 
 /* Team PAge */
-/* line 444, bootstrap/_styles.scss */
+/* line 446, bootstrap/_styles.scss */
 .team-font {
   text-shadow: 2px 1px 5px #555; }
 
-/* line 448, bootstrap/_styles.scss */
+/* line 450, bootstrap/_styles.scss */
 .team-row {
   margin-bottom: 20px; }
 
-/* line 452, bootstrap/_styles.scss */
+/* line 454, bootstrap/_styles.scss */
 .team-box {
   border: 1px solid #8D8881; }
 
-/* line 456, bootstrap/_styles.scss */
+/* line 458, bootstrap/_styles.scss */
 .team-name {
   position: absolute;
   bottom: 0px;
   left: 30px; }
 
-/* line 462, bootstrap/_styles.scss */
+/* line 464, bootstrap/_styles.scss */
 .modal-thumb {
   float: left;
   margin-right: 20px; }
 
-/* line 467, bootstrap/_styles.scss */
+/* line 469, bootstrap/_styles.scss */
 .bx-wrapper .bx-pager {
   position: absolute;
   top: -10px !important;
   right: 10px !important;
   width: auto !important; }
 
-/* line 474, bootstrap/_styles.scss */
+/* line 476, bootstrap/_styles.scss */
 #bx-pager {
   width: 100%;
   text-align: center;
   margin-bottom: 5px;
   background: #f9f9f9;
   padding: 10px 0px 10px 0px; }
-  /* line 481, bootstrap/_styles.scss */
+  /* line 483, bootstrap/_styles.scss */
   #bx-pager a img {
     border: 1px solid #8D8881;
     margin-left: 5px; }
-  /* line 486, bootstrap/_styles.scss */
+  /* line 488, bootstrap/_styles.scss */
   #bx-pager a .active img {
     border: 1px solid #428BCA; }
 
-/* line 493, bootstrap/_styles.scss */
+/* line 495, bootstrap/_styles.scss */
 .item img {
   border: 1px solid #8D8881 !important; }
 
-/* line 497, bootstrap/_styles.scss */
+/* line 499, bootstrap/_styles.scss */
 .pager-instructions {
   font-size: 12px;
   color: #8D8881;
   text-align: center; }
 
-/* line 504, bootstrap/_styles.scss */
+/* line 506, bootstrap/_styles.scss */
 .maps-box {
   width: 100%;
   overflow: hidden;
   box-shadow: 1px 0 10px #222; }
-  /* line 508, bootstrap/_styles.scss */
+  /* line 510, bootstrap/_styles.scss */
   .maps-box img {
     position: relative;
     left: 50%;
     margin-left: -960px; }
 
-/* line 515, bootstrap/_styles.scss */
+/* line 517, bootstrap/_styles.scss */
 .maps-box-narrow {
   width: 100%;
   overflow: hidden;
   border: 1px solid #000; }
-  /* line 519, bootstrap/_styles.scss */
+  /* line 521, bootstrap/_styles.scss */
   .maps-box-narrow img {
     position: relative;
     left: 50%;
     margin-left: -960px; }
 
 /* Testimonial 2 Page */
-/* line 528, bootstrap/_styles.scss */
+/* line 530, bootstrap/_styles.scss */
 .speech-bubble {
   background: #d8e7f0;
   border-bottom-right-radius: 10px;
@@ -6124,7 +6127,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   margin-bottom: 30px;
   position: relative; }
 
-/* line 537, bootstrap/_styles.scss */
+/* line 539, bootstrap/_styles.scss */
 .speech-bubble-triangle {
   width: 1px;
   height: 1px;
@@ -6136,7 +6139,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   bottom: -20px;
   right: 20px; }
 
-/* line 550, bootstrap/_styles.scss */
+/* line 552, bootstrap/_styles.scss */
 .affix {
   top: 0px;
   width: 100%;
@@ -6146,11 +6149,11 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 992px) {
-  /* line 563, bootstrap/_styles.scss */
+  /* line 565, bootstrap/_styles.scss */
   .navbar .caret {
     display: none; }
 
-  /* line 569, bootstrap/_styles.scss */
+  /* line 571, bootstrap/_styles.scss */
   .navbar .dropdown-menu {
     display: inline-block;
     position: relative;
@@ -6159,18 +6162,18 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     background: transparent;
     border: none;
     margin-left: 30px; }
-    /* line 579, bootstrap/_styles.scss */
+    /* line 581, bootstrap/_styles.scss */
     .navbar .dropdown-menu li a:before {
       content: '-'; }
 
-  /* line 587, bootstrap/_styles.scss */
+  /* line 589, bootstrap/_styles.scss */
   .affix {
     position: relative !important; } }
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
 /*Tooltip component by www.menucool.com */
 /*For tooltip target element that has set class="tooltip" */
-/* line 604, bootstrap/_styles.scss */
+/* line 606, bootstrap/_styles.scss */
 .tooltip {
   text-decoration: none;
   border-bottom: 1px dotted #36c;
@@ -6178,7 +6181,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   outline: none; }
 
 /*For tooltip box*/
-/* line 607, bootstrap/_styles.scss */
+/* line 609, bootstrap/_styles.scss */
 div#mcTooltip {
   line-height: 16px;
   border-width: 1px;
@@ -6192,17 +6195,17 @@ div#mcTooltip {
   background-color: rgba(0, 0, 0, 0.5);
   box-shadow: none; }
 
-/* line 621, bootstrap/_styles.scss */
+/* line 623, bootstrap/_styles.scss */
 div#mcTooltip, div.mcTooltipInner {
   background-color: none; }
 
 /* For hyperlink within tooltip */
-/* line 627, bootstrap/_styles.scss */
+/* line 629, bootstrap/_styles.scss */
 div#mcTooltip a {
   color: #9cf; }
 
 /*Close button. Available when sticky or overlay has been set to true, or is on iPhone, iPad, Android, BlackBerry, or IEMobile devices. */
-/* line 630, bootstrap/_styles.scss */
+/* line 632, bootstrap/_styles.scss */
 div#mcttCloseButton {
   width: 14px;
   height: 14px;
@@ -6215,7 +6218,7 @@ div#mcttCloseButton {
   left: auto; }
 
 /* Only applies when overlay has been set to true or 1 */
-/* line 637, bootstrap/_styles.scss */
+/* line 639, bootstrap/_styles.scss */
 div#mcOverlay {
   background-color: white;
   opacity: 0.8;
@@ -6229,7 +6232,7 @@ div#mcOverlay {
   z-index: 4; }
 
 /*Only available when calling by tooltip.ajax(...). It will be a spinning image indicating a request is in progress.*/
-/* line 645, bootstrap/_styles.scss */
+/* line 647, bootstrap/_styles.scss */
 div#tooltipAjaxSpin {
   margin: 20px 50px;
   background: transparent url(loading.gif) no-repeat center center;
@@ -6238,7 +6241,7 @@ div#tooltipAjaxSpin {
   font-size: 0; }
 
 /*The settings below should remain unchanged*/
-/* line 648, bootstrap/_styles.scss */
+/* line 650, bootstrap/_styles.scss */
 div#mcTooltipWrapper {
   position: absolute;
   visibility: hidden;
@@ -6246,26 +6249,26 @@ div#mcTooltipWrapper {
   z-index: 9999999999;
   top: 0px; }
 
-/* line 649, bootstrap/_styles.scss */
+/* line 651, bootstrap/_styles.scss */
 div#mcTooltip {
   float: left;
   border-style: solid;
   position: relative;
   overflow: hidden; }
 
-/* line 650, bootstrap/_styles.scss */
+/* line 652, bootstrap/_styles.scss */
 div.mcTooltipInner {
   float: left;
   position: relative;
   width: auto;
   height: auto; }
 
-/* line 651, bootstrap/_styles.scss */
+/* line 653, bootstrap/_styles.scss */
 div#mcttCo {
   position: absolute;
   text-align: left; }
 
-/* line 652, bootstrap/_styles.scss */
+/* line 654, bootstrap/_styles.scss */
 div#mcttCo em, div#mcttCo b {
   display: block;
   width: 0;
@@ -6273,37 +6276,37 @@ div#mcttCo em, div#mcttCo b {
   overflow: hidden; }
 
 /*workable with bootstrap*/
-/* line 655, bootstrap/_styles.scss */
+/* line 657, bootstrap/_styles.scss */
 div#mcTooltip, div#mcTooltip div {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box; }
 
-/* line 661, bootstrap/_styles.scss */
+/* line 663, bootstrap/_styles.scss */
 img {
   vertical-align: middle;
   border: 0; }
 
 /* http://www.menucool.com */
-/* line 666, bootstrap/_styles.scss */
+/* line 668, bootstrap/_styles.scss */
 #sliderFrame, #sliderFrame div {
   box-sizing: content-box; }
 
-/* line 670, bootstrap/_styles.scss */
+/* line 672, bootstrap/_styles.scss */
 #sliderFrame {
   position: relative;
   width: 700px;
   margin: 0 auto;
   /*center-aligned*/ }
 
-/* line 677, bootstrap/_styles.scss */
+/* line 679, bootstrap/_styles.scss */
 #slider, #slider div.sliderInner {
   width: 700px;
   height: 306px;
   /* Must be the same size as the slider images */
   border-radius: 6px; }
 
-/* line 682, bootstrap/_styles.scss */
+/* line 684, bootstrap/_styles.scss */
 #slider {
   background: #fff url(loading.gif) no-repeat 50% 50%;
   position: relative;
@@ -6311,7 +6314,7 @@ img {
   box-shadow: 0px 1px 5px #999999; }
 
 /* the link style (if an image is wrapped in a link) */
-/* line 690, bootstrap/_styles.scss */
+/* line 692, bootstrap/_styles.scss */
 #slider a.imgLink, #slider .video {
   z-index: 2;
   cursor: pointer;
@@ -6324,12 +6327,12 @@ img {
   width: 100%;
   height: 100%; }
 
-/* line 697, bootstrap/_styles.scss */
+/* line 699, bootstrap/_styles.scss */
 #slider a.video {
   background: transparent url(video.png) no-repeat 50% 50%; }
 
 /* Caption styles */
-/* line 702, bootstrap/_styles.scss */
+/* line 704, bootstrap/_styles.scss */
 #slider div.mc-caption-bg, #slider div.mc-caption-bg2 {
   position: absolute;
   width: 440px;
@@ -6344,7 +6347,7 @@ img {
   overflow: hidden;
   font-size: 0; }
 
-/* line 713, bootstrap/_styles.scss */
+/* line 715, bootstrap/_styles.scss */
 #slider div.mc-caption-bg {
   /* NOTE: Its opacity is to be set through the sliderOptions.captionOpacity setting in the js-image-slider.js file.*/
   background: Black;
@@ -6352,11 +6355,11 @@ img {
   border: 1px solid white;
   border-radius: 5px; }
 
-/* line 719, bootstrap/_styles.scss */
+/* line 721, bootstrap/_styles.scss */
 #slider div.mc-caption-bg2 {
   background: none; }
 
-/* line 722, bootstrap/_styles.scss */
+/* line 724, bootstrap/_styles.scss */
 #slider div.mc-caption {
   font: bold 15px Arial;
   color: #EEE;
@@ -6364,17 +6367,17 @@ img {
   text-align: center;
   background: none; }
 
-/* line 729, bootstrap/_styles.scss */
+/* line 731, bootstrap/_styles.scss */
 #slider div.mc-caption a {
   color: #FB0; }
 
-/* line 732, bootstrap/_styles.scss */
+/* line 734, bootstrap/_styles.scss */
 #slider div.mc-caption a:hover {
   color: #DA0; }
 
 /* ------ built-in navigation bullets wrapper ------*/
 /* Note: check themes\2\js-image-slider.css to see how to hide nav bullets */
-/* line 739, bootstrap/_styles.scss */
+/* line 741, bootstrap/_styles.scss */
 #slider div.navBulletsWrapper {
   top: 328px;
   /* Its position is relative to the #slider */
@@ -6385,7 +6388,7 @@ img {
   z-index: 5; }
 
 /* each bullet */
-/* line 749, bootstrap/_styles.scss */
+/* line 751, bootstrap/_styles.scss */
 #slider div.navBulletsWrapper div {
   width: 9px;
   height: 9px;
@@ -6404,14 +6407,14 @@ img {
   border-radius: 50%;
   box-shadow: inset 0 0 4px #AAA; }
 
-/* line 764, bootstrap/_styles.scss */
+/* line 766, bootstrap/_styles.scss */
 #slider div.navBulletsWrapper div.active {
   border-color: #3E99C6;
   background: #259FDC;
   color: White; }
 
 /* --------- Others ------- */
-/* line 773, bootstrap/_styles.scss */
+/* line 775, bootstrap/_styles.scss */
 #slider div.loading {
   width: 100%;
   height: 100%;
@@ -6423,13 +6426,13 @@ img {
   top: 0;
   z-index: 9; }
 
-/* line 785, bootstrap/_styles.scss */
+/* line 787, bootstrap/_styles.scss */
 #slider img, #slider > b, #slider a > b {
   position: absolute;
   border: none;
   display: none; }
 
-/* line 789, bootstrap/_styles.scss */
+/* line 791, bootstrap/_styles.scss */
 #slider div.sliderInner {
   overflow: hidden;
   -webkit-transform: rotate(0.0deg);
@@ -6438,11 +6441,11 @@ img {
   top: 0;
   left: 0; }
 
-/* line 795, bootstrap/_styles.scss */
+/* line 797, bootstrap/_styles.scss */
 #slider > a, #slider video, #slider audio {
   display: none; }
 
-/* line 796, bootstrap/_styles.scss */
+/* line 798, bootstrap/_styles.scss */
 #slider div {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
