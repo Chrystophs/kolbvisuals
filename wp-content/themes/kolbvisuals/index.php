@@ -33,18 +33,12 @@
 <?php if (of_get_option('remove_top_bar') != 1) : ?> 
 <?php endif; ?>
 <header role="banner">
-<div class="container trans">
-            <div class="col-sm-6 col-md-6 col-lg-5">
-                <?php $logo_header = of_get_option('logo_header');
-          if ($logo_header) { ?>
-           <a class="main-logo" href="<?php echo get_option('home'); ?>" title="<?php bloginfo('name'); ?>">
-                        <img src="<?php echo $logo_header; ?>" alt="<?php bloginfo('name'); ?>" class="img-responsive "/>
-                   </a>
-        <?php } else { ?>
-          <a class="main-logo" href="<?php echo get_option('home'); ?>" title="<?php bloginfo('name'); ?>">
-            <img src="<?php bloginfo('template_url'); ?>/i/logo.png" alt="<?php bloginfo('name'); ?>" class="img-responsive"/>
-          </a>
-        <?php } ?>
+<div class="">
+            <div class="">
+                <?php $logo_header = of_get_option('logo_header'); ?>
+           <!-- <img src="<?php bloginfo('template_url'); ?>/i/logo.jpg" alt="<?php bloginfo('name'); ?>" class="logo"/> -->
+     
+            <img src="<?php bloginfo('template_url'); ?>/i/logo-3.png" alt="<?php bloginfo('name'); ?>" class="logo-2"/>
      </div>
 </div>
 </header>
