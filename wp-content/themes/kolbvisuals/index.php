@@ -33,25 +33,17 @@
 <?php if (of_get_option('remove_top_bar') != 1) : ?> 
 <?php endif; ?>
 <header role="banner">
-<div class="">
-            <div class="">
-                <?php $logo_header = of_get_option('logo_header'); ?>
-           <!-- <img src="<?php bloginfo('template_url'); ?>/i/logo.jpg" alt="<?php bloginfo('name'); ?>" class="logo"/> -->
-     
-            <img src="<?php bloginfo('template_url'); ?>/i/logo-3.png" alt="<?php bloginfo('name'); ?>" class="logo-2"/>
-     </div>
-</div>
 </header>
 <?php if (of_get_option('make_nav_sticky') == 1) : ?>
 <div data-spy="affix" data-offset-top="210" data-offset-bottom="200">
 <?php endif; ?> 
     <div class="containernav">
-          <nav class="navbar navbar-default" role="navigation">
+                <?php $logo_header = of_get_option('logo_header'); ?>
+           <!-- <img src="<?php bloginfo('template_url'); ?>/i/logo.jpg" alt="<?php bloginfo('name'); ?>" class="logo"/> -->
+     
+            <img src="<?php bloginfo('template_url'); ?>/i/logo-3.png" alt="<?php bloginfo('name'); ?>" class="logo-2"/>
+          <nav class="navbar navbar-default kolb-menu-1" role="navigation">
               <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span>Menu</span>
-                  </button>
               </div>
         
               <!-- Collect the nav links, forms, and other content for toggling -->
@@ -66,8 +58,24 @@
                         'fallback_cb'    => '__return_false')
                         );
                     ?>
-            <div class="social-links login-hide pull-right margin-left">
-            </div>
+               </div>
+          </nav>
+          <nav class="navbar navbar-default kolb-menu-2" role="navigation">
+              <div class="">
+              </div>
+        
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <?php 
+                        wp_nav_menu( array(
+                        'theme_location'       => 'Footer Menu',
+                        'depth'      => 3,
+                        'container'  => false,
+                        'menu_class' => 'nav navbar-nav',
+                        'walker' => new twitter_bootstrap_nav_walker(),
+                        'fallback_cb'    => '__return_false')
+                        );
+                    ?>
                </div>
           </nav>
     </div>
