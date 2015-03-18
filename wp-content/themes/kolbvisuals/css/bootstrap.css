@@ -594,7 +594,7 @@ p {
   font-weight: 200;
   line-height: 1.4;
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 62, bootstrap/_type.scss */
   .lead {
     font-size: 21px;
@@ -802,7 +802,7 @@ dd {
   margin-left: 0;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 191, bootstrap/_type.scss */
   .dl-horizontal dt {
     float: left;
@@ -984,13 +984,13 @@ pre code {
 .container:after {
   clear: both;
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 10, bootstrap/_grid.scss */
   .container {
     width: 750px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 10, bootstrap/_grid.scss */
   .container {
     width: 970px;
@@ -1019,13 +1019,13 @@ pre code {
 .containernav:after {
   clear: both;
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 24, bootstrap/_grid.scss */
   .containernav {
     width: 750px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 24, bootstrap/_grid.scss */
   .containernav {
     width: 970px;
@@ -1338,7 +1338,7 @@ pre code {
   margin-left: 100%;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 817, bootstrap/_mixins.scss */
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
@@ -1599,7 +1599,7 @@ pre code {
     margin-left: 100%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 817, bootstrap/_mixins.scss */
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
@@ -2328,7 +2328,7 @@ table th[class*="col-"] {
   background-color: #ebcccc;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 91px) {
   /* line 172, bootstrap/_tables.scss */
   .table-responsive {
     width: 100%;
@@ -2780,7 +2780,7 @@ select[multiple].input-lg,
   color: #626262;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 338, bootstrap/_forms.scss */
   .form-inline .form-group, .navbar-form .form-group {
     display: inline-block;
@@ -2858,7 +2858,7 @@ select[multiple].input-lg,
 .form-horizontal .form-control-static {
   padding-top: 7px;
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 423, bootstrap/_forms.scss */
   .form-horizontal .control-label {
     text-align: right;
@@ -4351,9 +4351,9 @@ input[type="button"].btn-block {
   height: 0;
   margin-left: 2px;
   vertical-align: middle;
-  border-top: 4px solid;
-  border-right: 4px solid transparent;
-  border-left: 4px solid transparent;
+  border-top: 0px solid;
+  border-right: 0px solid transparent;
+  border-left: 0px solid transparent;
 }
 
 /* line 19, bootstrap/_dropdowns.scss */
@@ -4381,10 +4381,10 @@ input[type="button"].btn-block {
   font-size: 14px;
   background: transparent;
   border: 1px solid #cccccc;
-  border: 1px solid rgba(0, 0, 0, 0.75);
+  border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 4px;
-  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0);
   background-clip: padding-box;
 }
 /* line 51, bootstrap/_dropdowns.scss */
@@ -4406,15 +4406,15 @@ input[type="button"].btn-block {
   clear: both;
   font-weight: normal;
   line-height: 1.42857;
-  color: white;
+  color: black;
   white-space: nowrap;
 }
 
 /* line 76, bootstrap/_dropdowns.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #1a1a1a;
-  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 /* line 87, bootstrap/_dropdowns.scss */
@@ -4489,7 +4489,7 @@ input[type="button"].btn-block {
 .dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
   border-top: 0;
-  border-bottom: 4px solid;
+  border-bottom: 0px solid;
   content: "";
 }
 /* line 189, bootstrap/_dropdowns.scss */
@@ -4500,7 +4500,7 @@ input[type="button"].btn-block {
   margin-bottom: 1px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 203, bootstrap/_dropdowns.scss */
   .navbar-right .dropdown-menu {
     right: 0;
@@ -4653,13 +4653,13 @@ input[type="button"].btn-block {
 
 /* line 134, bootstrap/_button-groups.scss */
 .btn-lg .caret, .btn-group-lg > .btn .caret {
-  border-width: 5px 5px 0;
+  border-width: 0px 0px 0;
   border-bottom-width: 0;
 }
 
 /* line 139, bootstrap/_button-groups.scss */
 .dropup .btn-lg .caret, .dropup .btn-group-lg > .btn .caret {
-  border-width: 0 5px 5px;
+  border-width: 0 0px 0px;
 }
 
 /* line 150, bootstrap/_button-groups.scss */
@@ -4974,7 +4974,7 @@ input[type="button"].btn-block {
 /* line 98, bootstrap/_navs.scss */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
   color: #555555;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -5026,7 +5026,7 @@ input[type="button"].btn-block {
   top: auto;
   left: auto;
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 177, bootstrap/_navs.scss */
   .nav-justified > li, .nav-tabs.nav-justified > li {
     display: table-cell;
@@ -5055,7 +5055,7 @@ input[type="button"].btn-block {
 .nav-tabs.nav-justified > .active > a:focus {
   border: 1px solid #dddddd;
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 206, bootstrap/_navs.scss */
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
     border-bottom: 1px solid #dddddd;
@@ -5067,7 +5067,7 @@ input[type="button"].btn-block {
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: rgba(0, 0, 0, 0.5);
+    border-bottom-color: rgba(0, 0, 0, 0);
   }
 }
 
@@ -5113,7 +5113,7 @@ input[type="button"].btn-block {
 .navbar:after {
   clear: both;
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 11, bootstrap/_navbar.scss */
   .navbar {
     border-radius: 0px;
@@ -5129,7 +5129,7 @@ input[type="button"].btn-block {
 .navbar-header:after {
   clear: both;
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 31, bootstrap/_navbar.scss */
   .navbar-header {
     float: left;
@@ -5157,7 +5157,7 @@ input[type="button"].btn-block {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 50, bootstrap/_navbar.scss */
   .navbar-collapse {
     width: auto;
@@ -5190,7 +5190,7 @@ input[type="button"].btn-block {
   margin-right: 0px;
   margin-left: 0px;
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 96, bootstrap/_navbar.scss */
   .container > .navbar-header,
   .container > .navbar-collapse,
@@ -5206,7 +5206,7 @@ input[type="button"].btn-block {
   z-index: 1000;
   border-width: 0 0 1px;
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 116, bootstrap/_navbar.scss */
   .navbar-static-top {
     border-radius: 0;
@@ -5221,7 +5221,7 @@ input[type="button"].btn-block {
   left: 0;
   z-index: 1030;
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 127, bootstrap/_navbar.scss */
   .navbar-fixed-top,
   .navbar-fixed-bottom {
@@ -5254,7 +5254,7 @@ input[type="button"].btn-block {
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 165, bootstrap/_navbar.scss */
   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
     margin-left: 0px;
@@ -5293,7 +5293,7 @@ input[type="button"].btn-block {
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 177, bootstrap/_navbar.scss */
   .navbar-toggle {
     display: none;
@@ -5310,7 +5310,7 @@ input[type="button"].btn-block {
   padding-bottom: 10px;
   line-height: 20px;
 }
-@media (max-width: 991px) {
+@media (max-width: 91px) {
   /* line 230, bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu {
     position: static;
@@ -5335,7 +5335,7 @@ input[type="button"].btn-block {
     background-image: none;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 219, bootstrap/_navbar.scss */
   .navbar-nav {
     float: left;
@@ -5356,7 +5356,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 279, bootstrap/_navbar.scss */
   .navbar-left {
     float: left !important;
@@ -5373,18 +5373,18 @@ input[type="button"].btn-block {
   margin-right: 0px;
   padding: 10px 0px;
   border-bottom: 1px solid transparent;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0), 0 1px 0 rgba(255, 255, 255, 0);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0), 0 1px 0 rgba(255, 255, 255, 0);
   margin-top: 8px;
   margin-bottom: 8px;
 }
-@media (max-width: 991px) {
+@media (max-width: 91px) {
   /* line 304, bootstrap/_navbar.scss */
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 293, bootstrap/_navbar.scss */
   .navbar-form {
     width: auto;
@@ -5436,7 +5436,7 @@ input[type="button"].btn-block {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 364, bootstrap/_navbar.scss */
   .navbar-text {
     float: left;
@@ -5476,12 +5476,12 @@ input[type="button"].btn-block {
 /* line 407, bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: black;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
 }
 /* line 415, bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: black;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
 }
 /* line 423, bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
@@ -5494,7 +5494,7 @@ input[type="button"].btn-block {
 }
 /* line 433, bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
 }
 /* line 436, bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle .icon-bar {
@@ -5507,10 +5507,10 @@ input[type="button"].btn-block {
 }
 /* line 452, bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
   color: black;
 }
-@media (max-width: 991px) {
+@media (max-width: 91px) {
   /* line 461, bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: black;
@@ -5518,12 +5518,12 @@ input[type="button"].btn-block {
   /* line 464, bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: black;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
   }
   /* line 472, bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: black;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
   }
   /* line 480, bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -5599,7 +5599,7 @@ input[type="button"].btn-block {
   background-color: #990000;
   color: white;
 }
-@media (max-width: 991px) {
+@media (max-width: 91px) {
   /* line 581, bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #990000;
@@ -7000,26 +7000,25 @@ button.close {
   background-attachment: fixed;
   background-image: url(../i/bg.jpg);
   background-size: 100% 100%;
-  overflow: hidden;
 }
-/* line 161, bootstrap/_styles.scss */
+/* line 160, bootstrap/_styles.scss */
 .body-bg .container {
   background: transparent;
 }
-/* line 164, bootstrap/_styles.scss */
+/* line 163, bootstrap/_styles.scss */
 .body-bg .containernav {
   padding-left: 0px !important;
   padding-right: 0px !important;
   background: transparent;
 }
 
-/* line 171, bootstrap/_styles.scss */
+/* line 170, bootstrap/_styles.scss */
 .upper-meta-side {
   color: #888888;
   margin-bottom: 20px;
 }
 
-/* line 176, bootstrap/_styles.scss */
+/* line 175, bootstrap/_styles.scss */
 .blog-roll-title {
   font-size: 24px;
 }
@@ -7027,32 +7026,32 @@ button.close {
 /* Contact Page */
 /* Tells the Slider to hide when anything viewing below 769px do not remove.*/
 @media screen and (max-width: 769px) {
-  /* line 184, bootstrap/_styles.scss */
+  /* line 183, bootstrap/_styles.scss */
   .sliderhider {
     display: none !important;
   }
 }
-/* line 189, bootstrap/_styles.scss */
+/* line 188, bootstrap/_styles.scss */
 .contact-headline {
   margin: 20px 0px 20px 0px;
   text-align: right;
 }
 
-/* line 194, bootstrap/_styles.scss */
+/* line 193, bootstrap/_styles.scss */
 .contact-name {
   font-size: 22px;
   line-height: 22px;
   margin: 10px 0px 0px 0px;
 }
 
-/* line 200, bootstrap/_styles.scss */
+/* line 199, bootstrap/_styles.scss */
 .contact-subname {
   font-size: 18px;
   line-height: 18px;
   margin: 5px 0px 10px 0px;
 }
 
-/* line 206, bootstrap/_styles.scss */
+/* line 205, bootstrap/_styles.scss */
 .contact-hours {
   font-size: 18px;
   line-height: 18px;
@@ -7060,18 +7059,18 @@ button.close {
 }
 
 /*Testimonials Page Styles */
-/* line 213, bootstrap/_styles.scss */
+/* line 212, bootstrap/_styles.scss */
 .testimonial-row {
   margin-top: 10px;
 }
 
-/* line 217, bootstrap/_styles.scss */
+/* line 216, bootstrap/_styles.scss */
 .testimonial-bar {
   padding: 20px 0px 10px 0px;
   background: #e2e2e2;
 }
 
-/* line 222, bootstrap/_styles.scss */
+/* line 221, bootstrap/_styles.scss */
 .testimonial-text {
   position: absolute;
   top: 0px;
@@ -7079,7 +7078,7 @@ button.close {
   padding: 0px;
   opacity: 0.0;
 }
-/* line 228, bootstrap/_styles.scss */
+/* line 227, bootstrap/_styles.scss */
 .testimonial-text:hover {
   position: absolute;
   top: 0px;
@@ -7096,45 +7095,103 @@ button.close {
 }
 
 /* Header Styles */
-/* line 243, bootstrap/_styles.scss */
+/* line 242, bootstrap/_styles.scss */
+.line {
+  border-bottom: 2px solid #000;
+  width: 100%;
+}
+
+/* line 247, bootstrap/_styles.scss */
+.padding {
+  padding-top: 180px;
+}
+
+/* line 251, bootstrap/_styles.scss */
 .kolb-menu-1 {
   position: absolute;
   width: 15%;
   margin-top: 15%;
   left: 12%;
-  height: 25%;
+  top: 21%;
   z-index: 2;
+  padding-bottom: 0;
 }
 
-/* line 252, bootstrap/_styles.scss */
+/* line 261, bootstrap/_styles.scss */
 .kolb-menu-2 {
   position: absolute;
   width: 15%;
   margin-top: 15%;
   left: 34%;
-  height: 25%;
+  top: 21%;
   z-index: 2;
+  padding-bottom: 0;
 }
 
-/* line 261, bootstrap/_styles.scss */
-.logo {
+/* line 271, bootstrap/_styles.scss */
+.kolb-head-1 {
+  position: absolute;
+  margin-top: 6%;
+  width: 15%;
+  left: 27%;
+  top: 5%;
+  z-index: 2;
+  padding-bottom: 0;
+}
+
+/* line 281, bootstrap/_styles.scss */
+.kolb-head-2 {
+  position: absolute;
+  margin-top: 6%;
+  width: 15%;
+  left: 49%;
+  top: 5%;
+  z-index: 2;
+  padding-bottom: 0;
+}
+
+/* line 291, bootstrap/_styles.scss */
+.kolb-header-2 {
   position: relative;
+  left: 25%;
+}
+
+/* line 296, bootstrap/_styles.scss */
+.no-bottom {
+  padding-bottom: 0px;
+}
+
+/* line 300, bootstrap/_styles.scss */
+.logo {
+  position: absolute;
   display: block;
+  margin-top: 20px;
+  margin-left: 20px;
   z-index: 2;
 }
 
-/* line 267, bootstrap/_styles.scss */
+/* line 308, bootstrap/_styles.scss */
 .logo-2 {
   margin-top: 16%;
   left: 17%;
-  height: 35%;
-  width: 25%;
+  height: 35% !important;
+  width: 25% !important;
   position: absolute;
   display: block;
   z-index: 1;
 }
 
-/* line 277, bootstrap/_styles.scss */
+/* line 318, bootstrap/_styles.scss */
+.logo-3 {
+  left: 35%;
+  height: 30%;
+  width: 20%;
+  position: absolute;
+  display: block;
+  z-index: 1;
+}
+
+/* line 327, bootstrap/_styles.scss */
 .top-bar {
   background: #534741;
   margin-bottom: 10px;
@@ -7142,42 +7199,42 @@ button.close {
   padding: 3px 0px 5px 0px;
 }
 
-/* line 284, bootstrap/_styles.scss */
+/* line 334, bootstrap/_styles.scss */
 .hours-short {
   font-size: 11px;
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
-/* line 288, bootstrap/_styles.scss */
+/* line 338, bootstrap/_styles.scss */
 .hours-short a {
   color: #e2e2e2;
 }
-/* line 290, bootstrap/_styles.scss */
+/* line 340, bootstrap/_styles.scss */
 .hours-short a:hover {
   color: #fff;
 }
 
-/* line 296, bootstrap/_styles.scss */
+/* line 346, bootstrap/_styles.scss */
 .social-links {
   text-align: right;
   margin-top: 10px;
 }
-/* line 300, bootstrap/_styles.scss */
+/* line 350, bootstrap/_styles.scss */
 .social-links a svg {
   opacity: 0.8;
 }
 
-/* line 306, bootstrap/_styles.scss */
+/* line 356, bootstrap/_styles.scss */
 .social-links-bottom {
   text-align: left;
 }
-/* line 309, bootstrap/_styles.scss */
+/* line 359, bootstrap/_styles.scss */
 .social-links-bottom a svg {
   background: #fff;
   border-radius: 30px;
   padding: 1px;
 }
-/* line 315, bootstrap/_styles.scss */
+/* line 365, bootstrap/_styles.scss */
 .social-links-bottom a:hover svg {
   opacity: 1.0;
   -moz-transition: opacity .5s;
@@ -7189,13 +7246,13 @@ button.close {
   transition: opacity .5s;
 }
 
-/* line 327, bootstrap/_styles.scss */
+/* line 377, bootstrap/_styles.scss */
 .h-address {
   margin-top: 10px;
   text-align: right;
   margin-bottom: 20px;
 }
-/* line 331, bootstrap/_styles.scss */
+/* line 381, bootstrap/_styles.scss */
 .h-address span {
   font-size: 14px;
   line-height: 26px;
@@ -7204,7 +7261,7 @@ button.close {
   text-shadow: 2px 2px #222;
 }
 
-/* line 340, bootstrap/_styles.scss */
+/* line 390, bootstrap/_styles.scss */
 .h-phone {
   font-size: 18px;
   margin-top: 20px;
@@ -7212,7 +7269,7 @@ button.close {
   color: #fff;
   text-shadow: 2px 2px #222;
 }
-/* line 346, bootstrap/_styles.scss */
+/* line 396, bootstrap/_styles.scss */
 .h-phone span {
   font-size: 16px;
   line-height: 18px;
@@ -7220,7 +7277,7 @@ button.close {
   font-family: "jaf-facitweb",sans-serif;
   text-shadow: 2px 2px #222;
 }
-/* line 352, bootstrap/_styles.scss */
+/* line 402, bootstrap/_styles.scss */
 .h-phone span strong {
   color: #fff;
   font-size: 18px;
@@ -7228,103 +7285,103 @@ button.close {
 }
 
 /*Footer Styles */
-/* line 363, bootstrap/_styles.scss */
+/* line 413, bootstrap/_styles.scss */
 .foot-logo {
   height: 200px;
   width: 150px;
 }
 
-/* line 368, bootstrap/_styles.scss */
+/* line 418, bootstrap/_styles.scss */
 .footer-bar {
   background: white;
   padding: 50px 0px 20px 0px;
 }
 
-/* line 372, bootstrap/_styles.scss */
+/* line 422, bootstrap/_styles.scss */
 .footer-copyright {
   background: #362f2d;
   padding: 10px 0px 10px 0px;
 }
 
-/* line 376, bootstrap/_styles.scss */
+/* line 426, bootstrap/_styles.scss */
 .footer-bg {
   background: #362f2d !important;
 }
 
-/* line 379, bootstrap/_styles.scss */
+/* line 429, bootstrap/_styles.scss */
 .f-bar-bg {
   background: white !important;
 }
 
-/* line 383, bootstrap/_styles.scss */
+/* line 433, bootstrap/_styles.scss */
 .f-map img {
   margin-bottom: 5px;
 }
 
-/* line 387, bootstrap/_styles.scss */
+/* line 437, bootstrap/_styles.scss */
 .copyright {
   text-align: center;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
   color: #e2e2e2;
 }
-/* line 392, bootstrap/_styles.scss */
+/* line 442, bootstrap/_styles.scss */
 .copyright a {
   color: #ffffff;
 }
 
-/* line 397, bootstrap/_styles.scss */
+/* line 447, bootstrap/_styles.scss */
 .contact-box {
   color: #000;
   min-height: 160px;
 }
-/* line 400, bootstrap/_styles.scss */
+/* line 450, bootstrap/_styles.scss */
 .contact-box h4 {
   margin-top: 0px;
 }
 
-/* line 405, bootstrap/_styles.scss */
+/* line 455, bootstrap/_styles.scss */
 .footer-links {
   min-height: 160px;
 }
-/* line 408, bootstrap/_styles.scss */
+/* line 458, bootstrap/_styles.scss */
 .footer-links li ul {
   list-style-type: none;
 }
 
-/* line 414, bootstrap/_styles.scss */
+/* line 464, bootstrap/_styles.scss */
 .footer-menu {
   list-style-type: none;
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
 }
-/* line 418, bootstrap/_styles.scss */
+/* line 468, bootstrap/_styles.scss */
 .footer-menu a {
   color: black;
 }
-/* line 420, bootstrap/_styles.scss */
+/* line 470, bootstrap/_styles.scss */
 .footer-menu a:hover {
   color: #444444;
 }
 
 /* Callouts */
-/* line 428, bootstrap/_styles.scss */
+/* line 478, bootstrap/_styles.scss */
 .callout-title {
   text-align: center;
   font-size: 24px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 1px 1px 0px white;
 }
-/* line 433, bootstrap/_styles.scss */
+/* line 483, bootstrap/_styles.scss */
 .callout-title a {
   color: #333333;
 }
-/* line 435, bootstrap/_styles.scss */
+/* line 485, bootstrap/_styles.scss */
 .callout-title a:hover {
   text-decoration: none;
 }
 
-/* line 441, bootstrap/_styles.scss */
+/* line 491, bootstrap/_styles.scss */
 .callout-body {
   text-align: center;
   font-size: 15px;
@@ -7332,52 +7389,52 @@ button.close {
 }
 
 /* Services Pages */
-/* line 449, bootstrap/_styles.scss */
+/* line 499, bootstrap/_styles.scss */
 .services-tabs {
   margin-top: 30px;
 }
 
 /* Bootstrap Dropdown Fix */
-/* line 454, bootstrap/_styles.scss */
+/* line 504, bootstrap/_styles.scss */
 ul.nav li.dropdown:hover > ul.dropdown-menu {
   display: block;
 }
 
-/* line 457, bootstrap/_styles.scss */
+/* line 507, bootstrap/_styles.scss */
 .navbar .dropdown-menu {
   margin-top: 0px;
 }
 
 /* Team PAge */
-/* line 464, bootstrap/_styles.scss */
+/* line 514, bootstrap/_styles.scss */
 .team-font {
   text-shadow: 2px 1px 5px #555;
 }
 
-/* line 468, bootstrap/_styles.scss */
+/* line 518, bootstrap/_styles.scss */
 .team-row {
   margin-bottom: 20px;
 }
 
-/* line 472, bootstrap/_styles.scss */
+/* line 522, bootstrap/_styles.scss */
 .team-box {
   border: 1px solid #8D8881;
 }
 
-/* line 476, bootstrap/_styles.scss */
+/* line 526, bootstrap/_styles.scss */
 .team-name {
   position: absolute;
   bottom: 0px;
   left: 30px;
 }
 
-/* line 482, bootstrap/_styles.scss */
+/* line 532, bootstrap/_styles.scss */
 .modal-thumb {
   float: left;
   margin-right: 20px;
 }
 
-/* line 487, bootstrap/_styles.scss */
+/* line 537, bootstrap/_styles.scss */
 .bx-wrapper .bx-pager {
   position: absolute;
   top: -10px !important;
@@ -7385,7 +7442,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   width: auto !important;
 }
 
-/* line 494, bootstrap/_styles.scss */
+/* line 544, bootstrap/_styles.scss */
 #bx-pager {
   width: 100%;
   text-align: center;
@@ -7393,48 +7450,48 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   background: #f9f9f9;
   padding: 10px 0px 10px 0px;
 }
-/* line 501, bootstrap/_styles.scss */
+/* line 551, bootstrap/_styles.scss */
 #bx-pager a img {
   border: 1px solid #8D8881;
   margin-left: 5px;
 }
-/* line 506, bootstrap/_styles.scss */
+/* line 556, bootstrap/_styles.scss */
 #bx-pager a .active img {
   border: 1px solid #428BCA;
 }
 
-/* line 513, bootstrap/_styles.scss */
+/* line 563, bootstrap/_styles.scss */
 .item img {
   border: 1px solid #8D8881 !important;
 }
 
-/* line 517, bootstrap/_styles.scss */
+/* line 567, bootstrap/_styles.scss */
 .pager-instructions {
   font-size: 12px;
   color: #8D8881;
   text-align: center;
 }
 
-/* line 524, bootstrap/_styles.scss */
+/* line 574, bootstrap/_styles.scss */
 .maps-box {
   width: 100%;
   overflow: hidden;
   box-shadow: 1px 0 10px #222;
 }
-/* line 528, bootstrap/_styles.scss */
+/* line 578, bootstrap/_styles.scss */
 .maps-box img {
   position: relative;
   left: 50%;
   margin-left: -960px;
 }
 
-/* line 535, bootstrap/_styles.scss */
+/* line 585, bootstrap/_styles.scss */
 .maps-box-narrow {
   width: 100%;
   overflow: hidden;
   border: 1px solid #000;
 }
-/* line 539, bootstrap/_styles.scss */
+/* line 589, bootstrap/_styles.scss */
 .maps-box-narrow img {
   position: relative;
   left: 50%;
@@ -7442,7 +7499,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 /* Testimonial 2 Page */
-/* line 548, bootstrap/_styles.scss */
+/* line 598, bootstrap/_styles.scss */
 .speech-bubble {
   background: #d8e7f0;
   border-bottom-right-radius: 10px;
@@ -7454,7 +7511,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   position: relative;
 }
 
-/* line 557, bootstrap/_styles.scss */
+/* line 607, bootstrap/_styles.scss */
 .speech-bubble-triangle {
   width: 1px;
   height: 1px;
@@ -7467,7 +7524,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   right: 20px;
 }
 
-/* line 570, bootstrap/_styles.scss */
+/* line 620, bootstrap/_styles.scss */
 .affix {
   top: 0px;
   width: 100%;
@@ -7478,12 +7535,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 992px) {
-  /* line 583, bootstrap/_styles.scss */
+  /* line 633, bootstrap/_styles.scss */
   .navbar .caret {
     display: none;
   }
 
-  /* line 589, bootstrap/_styles.scss */
+  /* line 639, bootstrap/_styles.scss */
   .navbar .dropdown-menu {
     display: inline-block;
     position: relative;
@@ -7493,12 +7550,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     border: none;
     margin-left: 30px;
   }
-  /* line 599, bootstrap/_styles.scss */
+  /* line 649, bootstrap/_styles.scss */
   .navbar .dropdown-menu li a:before {
     content: '-';
   }
 
-  /* line 607, bootstrap/_styles.scss */
+  /* line 657, bootstrap/_styles.scss */
   .affix {
     position: relative !important;
   }
@@ -7507,7 +7564,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 /* Large devices (large desktops, 1200px and up) */
 /*Tooltip component by www.menucool.com */
 /*For tooltip target element that has set class="tooltip" */
-/* line 624, bootstrap/_styles.scss */
+/* line 674, bootstrap/_styles.scss */
 .tooltip {
   text-decoration: none;
   border-bottom: 1px dotted #36c;
@@ -7516,7 +7573,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 /*For tooltip box*/
-/* line 628, bootstrap/_styles.scss */
+/* line 678, bootstrap/_styles.scss */
 div#mcTooltip {
   line-height: 16px;
   border-width: 1px;
@@ -7531,19 +7588,19 @@ div#mcTooltip {
   box-shadow: none;
 }
 
-/* line 642, bootstrap/_styles.scss */
+/* line 692, bootstrap/_styles.scss */
 div#mcTooltip, div.mcTooltipInner {
   background-color: none;
 }
 
 /* For hyperlink within tooltip */
-/* line 647, bootstrap/_styles.scss */
+/* line 697, bootstrap/_styles.scss */
 div#mcTooltip a {
   color: #9cf;
 }
 
 /*Close button. Available when sticky or overlay has been set to true, or is on iPhone, iPad, Android, BlackBerry, or IEMobile devices. */
-/* line 651, bootstrap/_styles.scss */
+/* line 701, bootstrap/_styles.scss */
 div#mcttCloseButton {
   width: 14px;
   height: 14px;
@@ -7557,7 +7614,7 @@ div#mcttCloseButton {
 }
 
 /* Only applies when overlay has been set to true or 1 */
-/* line 658, bootstrap/_styles.scss */
+/* line 708, bootstrap/_styles.scss */
 div#mcOverlay {
   background-color: white;
   opacity: 0.8;
@@ -7572,7 +7629,7 @@ div#mcOverlay {
 }
 
 /*Only available when calling by tooltip.ajax(...). It will be a spinning image indicating a request is in progress.*/
-/* line 665, bootstrap/_styles.scss */
+/* line 715, bootstrap/_styles.scss */
 div#tooltipAjaxSpin {
   margin: 20px 50px;
   background: transparent url(loading.gif) no-repeat center center;
@@ -7582,7 +7639,7 @@ div#tooltipAjaxSpin {
 }
 
 /*The settings below should remain unchanged*/
-/* line 668, bootstrap/_styles.scss */
+/* line 718, bootstrap/_styles.scss */
 div#mcTooltipWrapper {
   position: absolute;
   visibility: hidden;
@@ -7591,7 +7648,7 @@ div#mcTooltipWrapper {
   top: 0px;
 }
 
-/* line 669, bootstrap/_styles.scss */
+/* line 719, bootstrap/_styles.scss */
 div#mcTooltip {
   float: left;
   border-style: solid;
@@ -7599,7 +7656,7 @@ div#mcTooltip {
   overflow: hidden;
 }
 
-/* line 670, bootstrap/_styles.scss */
+/* line 720, bootstrap/_styles.scss */
 div.mcTooltipInner {
   float: left;
   position: relative;
@@ -7607,13 +7664,13 @@ div.mcTooltipInner {
   height: auto;
 }
 
-/* line 671, bootstrap/_styles.scss */
+/* line 721, bootstrap/_styles.scss */
 div#mcttCo {
   position: absolute;
   text-align: left;
 }
 
-/* line 672, bootstrap/_styles.scss */
+/* line 722, bootstrap/_styles.scss */
 div#mcttCo em, div#mcttCo b {
   display: block;
   width: 0;
@@ -7622,26 +7679,26 @@ div#mcttCo em, div#mcttCo b {
 }
 
 /*workable with bootstrap*/
-/* line 675, bootstrap/_styles.scss */
+/* line 725, bootstrap/_styles.scss */
 div#mcTooltip, div#mcTooltip div {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 
-/* line 681, bootstrap/_styles.scss */
+/* line 731, bootstrap/_styles.scss */
 img {
   vertical-align: middle;
   border: 0;
 }
 
 /* http://www.menucool.com */
-/* line 686, bootstrap/_styles.scss */
+/* line 736, bootstrap/_styles.scss */
 #sliderFrame, #sliderFrame div {
   box-sizing: content-box;
 }
 
-/* line 691, bootstrap/_styles.scss */
+/* line 741, bootstrap/_styles.scss */
 #sliderFrame {
   position: relative;
   width: 700px;
@@ -7649,7 +7706,7 @@ img {
   /*center-aligned*/
 }
 
-/* line 697, bootstrap/_styles.scss */
+/* line 747, bootstrap/_styles.scss */
 #slider, #slider div.sliderInner {
   width: 700px;
   height: 306px;
@@ -7657,7 +7714,7 @@ img {
   border-radius: 6px;
 }
 
-/* line 702, bootstrap/_styles.scss */
+/* line 752, bootstrap/_styles.scss */
 #slider {
   background: white url(loading.gif) no-repeat 50% 50%;
   position: relative;
@@ -7666,7 +7723,7 @@ img {
 }
 
 /* the link style (if an image is wrapped in a link) */
-/* line 710, bootstrap/_styles.scss */
+/* line 760, bootstrap/_styles.scss */
 #slider a.imgLink, #slider .video {
   z-index: 2;
   cursor: pointer;
@@ -7680,13 +7737,13 @@ img {
   height: 100%;
 }
 
-/* line 717, bootstrap/_styles.scss */
+/* line 767, bootstrap/_styles.scss */
 #slider a.video {
   background: transparent url(video.png) no-repeat 50% 50%;
 }
 
 /* Caption styles */
-/* line 722, bootstrap/_styles.scss */
+/* line 772, bootstrap/_styles.scss */
 #slider div.mc-caption-bg, #slider div.mc-caption-bg2 {
   position: absolute;
   width: 440px;
@@ -7702,7 +7759,7 @@ img {
   font-size: 0;
 }
 
-/* line 733, bootstrap/_styles.scss */
+/* line 783, bootstrap/_styles.scss */
 #slider div.mc-caption-bg {
   /* NOTE: Its opacity is to be set through the sliderOptions.captionOpacity setting in the js-image-slider.js file.*/
   background: Black;
@@ -7711,12 +7768,12 @@ img {
   border-radius: 5px;
 }
 
-/* line 739, bootstrap/_styles.scss */
+/* line 789, bootstrap/_styles.scss */
 #slider div.mc-caption-bg2 {
   background: none;
 }
 
-/* line 742, bootstrap/_styles.scss */
+/* line 792, bootstrap/_styles.scss */
 #slider div.mc-caption {
   font: bold 15px Arial;
   color: #EEE;
@@ -7725,19 +7782,19 @@ img {
   background: none;
 }
 
-/* line 749, bootstrap/_styles.scss */
+/* line 799, bootstrap/_styles.scss */
 #slider div.mc-caption a {
   color: #FB0;
 }
 
-/* line 752, bootstrap/_styles.scss */
+/* line 802, bootstrap/_styles.scss */
 #slider div.mc-caption a:hover {
   color: #DA0;
 }
 
 /* ------ built-in navigation bullets wrapper ------*/
 /* Note: check themes\2\js-image-slider.css to see how to hide nav bullets */
-/* line 759, bootstrap/_styles.scss */
+/* line 809, bootstrap/_styles.scss */
 #slider div.navBulletsWrapper {
   top: 328px;
   /* Its position is relative to the #slider */
@@ -7749,7 +7806,7 @@ img {
 }
 
 /* each bullet */
-/* line 770, bootstrap/_styles.scss */
+/* line 820, bootstrap/_styles.scss */
 #slider div.navBulletsWrapper div {
   width: 9px;
   height: 9px;
@@ -7769,7 +7826,7 @@ img {
   box-shadow: inset 0 0 4px #AAA;
 }
 
-/* line 784, bootstrap/_styles.scss */
+/* line 834, bootstrap/_styles.scss */
 #slider div.navBulletsWrapper div.active {
   border-color: #3E99C6;
   background: #259FDC;
@@ -7777,7 +7834,41 @@ img {
 }
 
 /* --------- Others ------- */
-/* line 794, bootstrap/_styles.scss */
+/* line 843, bootstrap/_styles.scss */
+#sync1 .item {
+  background: rgba(50, 50, 50, 0.3);
+  margin: 5px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+/* line 852, bootstrap/_styles.scss */
+#sync2 .item {
+  background: #C9C9C9;
+  padding: 10px 0px;
+  margin: 5px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 863, bootstrap/_styles.scss */
+#sync2 .item h1 {
+  font-size: 18px;
+}
+
+/* line 866, bootstrap/_styles.scss */
+#sync2 .synced .item {
+  background: #0c83e7;
+}
+
+/* line 872, bootstrap/_styles.scss */
 #slider div.loading {
   width: 100%;
   height: 100%;
@@ -7790,14 +7881,14 @@ img {
   z-index: 9;
 }
 
-/* line 805, bootstrap/_styles.scss */
+/* line 883, bootstrap/_styles.scss */
 #slider img, #slider > b, #slider a > b {
   position: absolute;
   border: none;
   display: none;
 }
 
-/* line 809, bootstrap/_styles.scss */
+/* line 887, bootstrap/_styles.scss */
 #slider div.sliderInner {
   overflow: hidden;
   -webkit-transform: rotate(0.0deg);
@@ -7807,12 +7898,12 @@ img {
   left: 0;
 }
 
-/* line 815, bootstrap/_styles.scss */
+/* line 893, bootstrap/_styles.scss */
 #slider > a, #slider video, #slider audio {
   display: none;
 }
 
-/* line 816, bootstrap/_styles.scss */
+/* line 894, bootstrap/_styles.scss */
 #slider div {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
@@ -7949,7 +8040,7 @@ img {
   margin-left: 0;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 125, bootstrap/_modals.scss */
   .modal-dialog {
     width: 600px;
@@ -7967,7 +8058,7 @@ img {
     width: 300px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   /* line 138, bootstrap/_modals.scss */
   .modal-lg {
     width: 900px;
@@ -8428,7 +8519,7 @@ img {
   text-shadow: none;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 92px) {
   /* line 216, bootstrap/_carousel.scss */
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
@@ -9134,7 +9225,7 @@ img {
   display: none !important;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 91px) {
   /* line 636, bootstrap/_mixins.scss */
   .visible-xs {
     display: block !important;
@@ -9156,7 +9247,7 @@ img {
     display: table-cell !important;
   }
 }
-@media (min-width: 992px) and (max-width: 991px) {
+@media (min-width: 92px) and (max-width: 91px) {
   /* line 636, bootstrap/_mixins.scss */
   .visible-sm {
     display: block !important;
@@ -9178,7 +9269,7 @@ img {
     display: table-cell !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 92px) and (max-width: 1199px) {
   /* line 636, bootstrap/_mixins.scss */
   .visible-md {
     display: block !important;
@@ -9222,19 +9313,19 @@ img {
     display: table-cell !important;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 91px) {
   /* line 647, bootstrap/_mixins.scss */
   .hidden-xs {
     display: none !important;
   }
 }
-@media (min-width: 992px) and (max-width: 991px) {
+@media (min-width: 92px) and (max-width: 91px) {
   /* line 647, bootstrap/_mixins.scss */
   .hidden-sm {
     display: none !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 92px) and (max-width: 1199px) {
   /* line 647, bootstrap/_mixins.scss */
   .hidden-md {
     display: none !important;

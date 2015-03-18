@@ -137,9 +137,9 @@ $component-active-color:    #fff !default;
 $component-active-bg:       $brand-primary !default;
 
 //** Width of the `border` for generating carets that indicator dropdowns.
-$caret-width-base:          4px !default;
+$caret-width-base:          0px !default;
 //** Carets increase slightly in size for larger components.
-$caret-width-large:         5px !default;
+$caret-width-large:         0px !default;
 
 
 //== Tables
@@ -238,20 +238,20 @@ $input-group-addon-border-color: $input-border !default;
 //## Dropdown menu container and contents.
 
 //** Background for the dropdown menu.
-$dropdown-bg:                    rgba(255,255,255,.5) !default;
+$dropdown-bg:                    rgba(255,255,255,.0) !default;
 //** Dropdown menu `border-color`.
-$dropdown-border:                rgba(0,0,0,.75) !default;
+$dropdown-border:                rgba(0,0,0,.0) !default;
 //** Dropdown menu `border-color` **for IE8**.
 $dropdown-fallback-border:       #ccc !default;
 //** Divider color for between dropdown items.
 $dropdown-divider-bg:            #e5e5e5 !default;
 
 //** Dropdown link text color.
-$dropdown-link-color:            #fff !default;
+$dropdown-link-color:            #000 !default;
 //** Hover color for dropdown links.
 $dropdown-link-hover-color:      darken($dropdown-link-color, 90%) !default;
 //** Hover background for dropdown links.
-$dropdown-link-hover-bg:         $dropdown-bg !default;
+$dropdown-link-hover-bg:         rgba(255,255,255,0.3) !default;
 
 //** Active dropdown menu item text color.
 $dropdown-link-active-color:     $component-active-color !default;
@@ -290,19 +290,19 @@ $zindex-modal:             1050 !default;
 
 // Extra small screen / phone
 // Note: Deprecated $screen-xs and $screen-phone as of v3.0.1
-$screen-xs:                  480px !default;
+$screen-xs:                  80px !default;
 $screen-xs-min:              $screen-xs !default;
 $screen-phone:               $screen-xs-min !default;
 
 // Small screen / tablet
 // Note: Deprecated $screen-sm and $screen-tablet as of v3.0.1
-$screen-sm:                  992px !default;
+$screen-sm:                  92px !default;
 $screen-sm-min:              $screen-sm !default;
 $screen-tablet:              $screen-sm-min !default;
 
 // Medium screen / desktop
 // Note: Deprecated $screen-md and $screen-desktop as of v3.0.1
-$screen-md:                  992px !default;
+$screen-md:                  92px !default;
 $screen-md-min:              $screen-md !default;
 $screen-desktop:             $screen-md-min !default;
 
@@ -385,7 +385,7 @@ $navbar-collapse-max-height:       340px !default;
 $divider-height: 40px !default;
 
 $navbar-default-color:             #000 !default;
-$navbar-default-bg:                rgba(0,0,0,0.5) !default;
+$navbar-default-bg:                rgba(0,0,0,0.0) !default;
 $navbar-default-border:            rgba(55,55,55,0.8) !default;
 
 // Navbar links

@@ -39,8 +39,7 @@
 <?php endif; ?> 
     <div class="containernav">
                 <?php $logo_header = of_get_option('logo_header'); ?>
-           <!-- <img src="<?php bloginfo('template_url'); ?>/i/logo.jpg" alt="<?php bloginfo('name'); ?>" class="logo"/> -->
-     
+            <img src="<?php bloginfo('template_url'); ?>/i/logo.png" alt="<?php bloginfo('name'); ?>" class="logo"/>
             <img src="<?php bloginfo('template_url'); ?>/i/logo-3.png" alt="<?php bloginfo('name'); ?>" class="logo-2"/>
           <nav class="navbar navbar-default kolb-menu-1" role="navigation">
               <div class="navbar-header">
@@ -71,7 +70,7 @@
                         'theme_location'       => 'Footer Menu',
                         'depth'      => 3,
                         'container'  => false,
-                        'menu_class' => 'nav navbar-nav',
+                        'menu_class' => 'nav navbar-nav kolb-header-2',
                         'walker' => new twitter_bootstrap_nav_walker(),
                         'fallback_cb'    => '__return_false')
                         );

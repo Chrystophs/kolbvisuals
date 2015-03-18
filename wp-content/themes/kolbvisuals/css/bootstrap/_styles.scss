@@ -156,7 +156,6 @@ box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
   background-attachment:fixed;
   background-image: url(../i/bg.jpg);
   background-size: 100% 100%;
-  overflow: hidden;
 
   .container {
     background: transparent;
@@ -240,13 +239,23 @@ box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
 
 /* Header Styles */
 
+.line {
+  border-bottom: 2px solid #000;
+  width: 100%;
+}
+
+.padding {
+  padding-top: 180px;
+}
+
 .kolb-menu-1 {
   position: absolute;
   width: 15%;
   margin-top: 15%;
   left: 12%;
-  height: 25%;
+  top: 21%;
   z-index: 2;
+  padding-bottom: 0;
 }
 
 .kolb-menu-2 {
@@ -254,21 +263,62 @@ box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
   width: 15%;
   margin-top: 15%;
   left: 34%;
-  height: 25%;
+  top: 21%;
   z-index: 2;
+  padding-bottom: 0;
+}
+
+.kolb-head-1 {
+  position: absolute;
+  margin-top: 6%;
+  width: 15%;
+  left: 27%;
+  top: 5%;
+  z-index: 2;
+  padding-bottom: 0;
+}
+
+.kolb-head-2 {
+  position: absolute;
+  margin-top: 6%;
+  width: 15%;
+  left: 49%;
+  top: 5%;
+  z-index: 2;
+  padding-bottom: 0;
+}
+
+.kolb-header-2 {
+  position: relative;
+  left: 25%;
+}
+
+.no-bottom {
+  padding-bottom: 0px
 }
 
 .logo {
-  position: relative;
+  position: absolute;
   display: block;
+  margin-top: 20px;
+  margin-left: 20px;
   z-index: 2;
 }
 
 .logo-2 {
   margin-top: 16%;
   left: 17%;
-  height: 35%;
-  width: 25%;
+  height: 35% !important;
+  width: 25% !important;
+  position: absolute;
+  display: block;
+  z-index: 1;
+}
+
+.logo-3 {
+  left: 35%;
+  height: 30%;
+  width: 20%;
   position: absolute;
   display: block;
   z-index: 1;
@@ -789,6 +839,34 @@ img {
 
 
 /* --------- Others ------- */
+
+#sync1 .item{
+    background: rgba(50,50,50,0.3);
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+#sync2 .item{
+    background: #C9C9C9;
+    padding: 10px 0px;
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+#sync2 .item h1{
+  font-size: 18px;
+}
+#sync2 .synced .item{
+  background: #0c83e7;
+}
+ 
 
 #slider div.loading 
 {

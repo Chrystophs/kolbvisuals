@@ -18,6 +18,10 @@
     <link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/favicon.ico" type="image/x-icon">
 <link rel="icon" href="<?php bloginfo('stylesheet_directory'); ?>/favicon.ico" type="image/x-icon">
 
+    <!--Menu Cool-->
+    <script src="themes/5/mcVideoPlugin.js" type="text/javascript"></script>
+    <script src="themes/5/js-image-slider.js" type="text/javascript"></script>
+
     <!--Carousel-->
     <link href="<?php bloginfo('stylesheet_directory'); ?>/jsImgSlider/themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
     <script src="<?php bloginfo('stylesheet_directory'); ?>/jsImgSlider/themes/1/js-image-slider.js" type="text/javascript"></script>
@@ -47,43 +51,6 @@
 <?php if (of_get_option('remove_top_bar') != 1) : ?> 
 <?php endif; ?>
 <header role="banner">
-<div class="container trans">
-	<div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-5">
-                <?php $logo_header = of_get_option('logo_header');
-				  if ($logo_header) { ?>
-				   <a class="main-logo" href="<?php echo get_option('home'); ?>" title="<?php bloginfo('name'); ?>">
-                        <img src="<?php echo $logo_header; ?>" alt="<?php bloginfo('name'); ?>" class="img-responsive "/>
-                   </a>
-				<?php } else { ?>
-					<a class="main-logo" href="<?php echo get_option('home'); ?>" title="<?php bloginfo('name'); ?>">
-						<img src="<?php bloginfo('template_url'); ?>/i/logo.png" alt="<?php bloginfo('name'); ?>" class="img-responsive"/>
-					</a>
-				<?php } ?>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-7">
-                
-                <div class="h-phone">
-                	<?php
-						$phone_new = contact_detail('phone_new', '' , '', false);
-                        $phone_current = contact_detail('phone_current', '' , '', false);
-					?>
-                    <?php if (!empty($phone_new)) : ?>
-                        New Patients: <span itemprop="telephone"><strong><?php echo $phone_new; ?></strong></span><br/>
-                    <?php endif; ?>
-                    <?php if (!empty($phone_new)) : ?>
-                        Current Patients:
-                    <?php else: ?>
-                        Phone: 
-                    <?php endif; ?>
-                        <span itemprop="telephone"><strong><?php echo $phone_current; ?></strong></span>
-                </div>
-                <div class="h-address">
-                    <span><?php if (function_exists('contact_detail')) { contact_detail('address_short'); } ?></span>
-                </div>
-            </div>
-     </div>
-</div>
 <!-- <div class="container">
     <div class="top-bar">
         <div class="row">
@@ -99,12 +66,12 @@
 <?php endif; ?> 
 <!-- <div class="navbar navbar-default">-->
     <div class="containernav">
-          <nav class="navigation navbar navbar-default" role="navigation">
+      <?php $logo_header = of_get_option('logo_header'); ?>
+           <!-- <img src="<?php bloginfo('template_url'); ?>/i/logo.jpg" alt="<?php bloginfo('name'); ?>" class="logo"/> -->
+     
+            <img src="<?php bloginfo('template_url'); ?>/i/logo-3.png" alt="<?php bloginfo('name'); ?>" class="logo-3"/>
+          <nav class="navbar navbar-default kolb-head-1" role="navigation">
               <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span>Menu</span>
-                  </button>
               </div>
         
               <!-- Collect the nav links, forms, and other content for toggling -->
@@ -119,16 +86,24 @@
                         'fallback_cb'    => '__return_false')
                         );
                     ?>
-            <div class="social-links login-hide pull-left margin-righ">
-            <?php if ( is_user_logged_in() ) { ?>
-            <a href="<?php echo wp_logout_url(''); ?>"><span class="glyphicon glyphicon-log-out white"> Logout</span></a>
-                         
-        <?php } else { ?>
-
-            <a href="<?php echo wp_login_url(''); ?>"><span class="glyphicon glyphicon-log-in white"> Login</span></a>
-            <a href="<?php echo get_option('home'); ?>/register"><span class="glyphicon glyphicon-new-window white"> Register</span></a>
-        <?php } ?>
-            </div>
+               </div>
+          </nav>
+          <nav class="navbar navbar-default kolb-head-2" role="navigation">
+              <div class="">
+              </div>
+        
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <?php 
+                        wp_nav_menu( array(
+                        'theme_location'       => 'Footer Menu',
+                        'depth'      => 3,
+                        'container'  => false,
+                        'menu_class' => 'nav navbar-nav kolb-header-2',
+                        'walker' => new twitter_bootstrap_nav_walker(),
+                        'fallback_cb'    => '__return_false')
+                        );
+                    ?>
                </div>
           </nav>
     </div>

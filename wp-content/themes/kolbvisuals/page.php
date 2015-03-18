@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="body-bg">
+<div class="body-bg padding">
     <div class="container">
     	<div class="row">
         	<div class="col-xs-12">
@@ -12,8 +12,8 @@
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>	
                     <div class="content-block">
                     	<article id="post-<?php the_ID(); ?>" role="article" itemscope itemtype="http://schema.org/WebPage">
-                        	<header class="article-header">
-                            	<h1 class="page-title team-font" itemprop="headline">
+                        	<header class="article-header line">
+                            	<!--<h1 class="page-title team-font" itemprop="headline">
 								  <?php
                                     if(get_field('custom_page_headline_(h1)')) {
                                           the_field('custom_page_headline_(h1)');
@@ -21,7 +21,7 @@
                                           the_title();
                                     }
                                   ?>
-                                </h1>
+                                </h1>-->
                             </header>
                             <section itemprop="articleBody">
 								<?php
