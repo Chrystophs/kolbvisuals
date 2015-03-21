@@ -40,7 +40,7 @@ $owl-main-color: #ff5335 !default;
 // ## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               #222 !default;
+$body-bg:               #909090 !default;
 //** Global text color on `<body>`.
 $text-color:            $gray-darker !default;
 
@@ -61,7 +61,7 @@ $font-family-special:       Georgia, "Times New Roman", Times, serif !default;
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
 
-$font-size-base:          14px !default;
+$font-size-base:          16px !default;
 $font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
 
@@ -290,19 +290,19 @@ $zindex-modal:             1050 !default;
 
 // Extra small screen / phone
 // Note: Deprecated $screen-xs and $screen-phone as of v3.0.1
-$screen-xs:                  80px !default;
+$screen-xs:                  700px !default;
 $screen-xs-min:              $screen-xs !default;
 $screen-phone:               $screen-xs-min !default;
 
 // Small screen / tablet
 // Note: Deprecated $screen-sm and $screen-tablet as of v3.0.1
-$screen-sm:                  92px !default;
+$screen-sm:                  860px !default;
 $screen-sm-min:              $screen-sm !default;
 $screen-tablet:              $screen-sm-min !default;
 
 // Medium screen / desktop
 // Note: Deprecated $screen-md and $screen-desktop as of v3.0.1
-$screen-md:                  92px !default;
+$screen-md:                  1200px !default;
 $screen-md-min:              $screen-md !default;
 $screen-desktop:             $screen-md-min !default;
 
@@ -398,7 +398,7 @@ $navbar-default-link-disabled-color:       #ccc !default;
 $navbar-default-link-disabled-bg:          transparent !default;
 
 $navbar-default-font-weight:          normal !default;
-$navbar-default-font-size:          16px !default;
+$navbar-default-font-size:          20px !default;
 
 // Navbar brand label
 $navbar-default-brand-color:               $navbar-default-link-color !default;

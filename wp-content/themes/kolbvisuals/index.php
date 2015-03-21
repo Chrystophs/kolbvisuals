@@ -43,6 +43,10 @@
             <img src="<?php bloginfo('template_url'); ?>/i/logo-3.png" alt="<?php bloginfo('name'); ?>" class="logo-2"/>
           <nav class="navbar navbar-default kolb-menu-1" role="navigation">
               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span>Photography</span>
+                  </button>
               </div>
         
               <!-- Collect the nav links, forms, and other content for toggling -->
@@ -60,11 +64,15 @@
                </div>
           </nav>
           <nav class="navbar navbar-default kolb-menu-2" role="navigation">
-              <div class="">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span>Videography</span>
+                  </button>
               </div>
         
               <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
                     <?php 
                         wp_nav_menu( array(
                         'theme_location'       => 'Footer Menu',
@@ -82,6 +90,15 @@
 <?php if (of_get_option('make_nav_sticky') == 1) : ?>
 <?php endif; ?>
 <footer>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="foot-links">
+        <a href="<?php echo get_option('About Us'); ?>" alt="About Us">About Us</a> | <a href="<?php echo get_option('Contact'); ?>" alt="Contact Us">Contact</a>
+      </div>
+    </div>
+  </div>
+</div>
 </footer>
 <?php wp_footer(); ?>
 
